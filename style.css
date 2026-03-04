@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url(Ubuntu-Regular.ttf) format("truetype");
+}
+
+body {
+  background-image: url(ozadje1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+.fa-regular {
+  margin-right: 0.4rem;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+}
+.form1 {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgb(20, 20, 20, 0.4);
+  backdrop-filter: blur(3px);
+  margin: 0.3rem;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.form1 h1 {
+  font-size: 40px;
+}
+.form1 input {
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.form1 input:focus {
+  background-color: lightblue;
+}
+
+.form-content {
+  font-size: 24px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+  margin: 0.7rem;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.gumb {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.form-btn:hover {
+  background-color: lightblue;
+  transform: scale(1.1);
+}
+.form-btn {
+  background: none;
+  margin-top: 0.3rem;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
